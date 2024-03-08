@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1" />	
-	<title>About Yuhang</title>
+	<title a id="title">About Yuhang</title>
 
 	<link rel="stylesheet" href="./style.css" type="text/css" media="all" />
 	<link rel="shortcut icon" href="./images/favicon.png"/>
@@ -15,6 +15,8 @@
             top: 0;
             z-index: 1000; /* 确保它在其他元素上方 */
             padding: 10px; /* 或根据您的设计进行调整 */
+			margin-top: 25px;
+			margin-right: 20px;
         }
 
         /* 为了确保语言选择器的可见性，可以添加更多样式 */
@@ -23,6 +25,20 @@
             margin: 0; /* 根据需要进行调整 */
             /* 这里可以添加更多样式，如背景、边框等 */
         }
+		.language-switcher-container select {
+			background-color:transparent; /* 设置背景透明 */
+			color: #fff; /* 文字颜色设置为黑色，或者您喜欢的颜色 */
+			font-size: 18px; /* 设置字体大小 */
+			border: none; /* 完全移除边框 */
+			outline: none; /* 移除焦点时的轮廓 */
+		}
+		
+		.language-switcher-container select:hover,
+		.language-switcher-container select:focus {
+			color: black; /* 鼠标悬停或选择框获得焦点时，文本变为黑色（或您希望的任何颜色） */
+			cursor: pointer; /* 显示一个指示该元素可点击的光标 */
+    		border-color: #000000; /* 设置边框颜色 */
+		}
     </style>
 </head>
 <body class="loading-process">
@@ -44,9 +60,9 @@
 			<ul>
 				<li class="nav-about fade fade1"><a id="nav_about" href="#about">关于</a></li>
 				<li class="nav-works fade fade4"><a id=nav_works href="#works">作品</a></li>
-				<li class="fade back-home"><a href="#top">首页</a></li>
-				<li class="nav-skill fade fade2"><a href="#skill">能力</a></li>
-				<li class="nav-contact fade fade3"><a href="#contact">联系</a></li>
+				<li class="fade back-home"><a id=nav_home href="#top">首页</a></li>
+				<li class="nav-skill fade fade2"><a id="nav_skill" href="#skill">能力</a></li>
+				<li class="nav-contact fade fade3"><a id="nav_contact" href="#contact">联系</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -58,9 +74,9 @@
 <div class="section-wrap section-fristpage">
 	<div class="section">
 		<div class="section-content">
-			<p class="fade fade1">Hi，我是 于江水</p>
-			<p class="fade fade2">擅长前端，喜欢简约，打算走向全端的不归路 ~</p>
-			<p class="fade fade3">想了解更多，往下滚动哦 ^_^</p>
+			<p class="fade fade1" id="intro_greeting">你好 我是黄宇航</p>
+			<p class="fade fade2" id="intro_desc">东南大学在读研究生</p>
+			<p class="fade fade3">没啥好看的(不是)</p>
 		</div>
 		<a href="#" class="scroll-tip fade fade4">向下滚动</a>
 	</div>

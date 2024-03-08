@@ -28,8 +28,8 @@
 <body class="loading-process">
 	<div class="language-switcher-container">
         <select id="language-switcher">
+			<option value="zh">中文</option>
             <option value="en">English</option>
-            <option value="zh">中文</option>
         </select>
     </div>
 <div class="loading">
@@ -195,38 +195,38 @@
 <script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
 <script src="js/global.js"></script>
 <script>
-	document.addEventListener('DOMContentLoaded', function() {
-		var languageSwitcher = document.getElementById('language-switcher');
-	
-		function updateTexts(data) {
-			Object.keys(data).forEach(function(key) {
-				var element = document.getElementById(key);
-				if (element) {
-					element.textContent = data[key]; // 使用textContent而不是innerText
-				}
-			});
-		}
-	
-		languageSwitcher.addEventListener('change', function(e) {
-			var lang = e.target.value;
-			fetch(`./lang-${lang}.json`)
-				.then(response => {
-					if (!response.ok) {
-						throw new Error('Network response was not ok');
-					}
-					return response.json();
-				})
-				.then(updateTexts)
-				.catch(error => console.error('Error loading the language file:', error));
-			localStorage.setItem('preferredLanguage', lang);
-		});
-	
-		var preferredLanguage = localStorage.getItem('preferredLanguage') || 'en';
-		languageSwitcher.value = preferredLanguage;
-		languageSwitcher.dispatchEvent(new Event('change'));
-	});
-	</script>
-	
+document.addEventListener('DOMContentLoaded', function() {
+    var languageSwitcher = document.getElementById('language-switcher');
+
+    function updateTexts(data) {
+        Object.keys(data).forEach(function(key) {
+            var element = document.getElementById(key);
+            if (element) {
+                element.textContent = data[key]; // 使用textContent而不是innerText
+            }
+        });
+    }
+
+    languageSwitcher.addEventListener('change', function(e) {
+        var lang = e.target.value;
+        fetch(`./lang-${lang}.json`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(updateTexts)
+            .catch(error => console.error('Error loading the language file:', error));
+        localStorage.setItem('preferredLanguage', lang);
+    });
+
+    var preferredLanguage = localStorage.getItem('preferredLanguage') || 'en';
+    languageSwitcher.value = preferredLanguage;
+    languageSwitcher.dispatchEvent(new Event('change'));
+});
+</script>
+
 	
 </body>
 </html>

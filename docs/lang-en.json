@@ -1,0 +1,46 @@
+{
+    "nav_about": "About",
+    "nav_works": "Works",
+    "nav_home": "Home",
+    "nav_skill": "Skills",
+    "nav_contact": "Contact",
+    "intro_greeting": "Hi, I'm Yuhang",
+    "intro_desc": "A front-end enthusiast aiming for full-stack, with a love for simplicity.",
+    "intro_more": "Scroll down to learn more ^_^",
+    "about_title": "About Me",
+    "about_timeline_1": "Started with website construction in 2008.",
+    "about_timeline_2": "Focused on front-end learning since 2012.",
+    "about_blog": "Wrote an independent blog for over two years (Previous blog: Stealth M)",
+    "about_developer": "Developer of 'Study Hard, Aim High'",
+    "about_freelance": "Freelance front-end engineer at Deepdevelop",
+    "about_applying": "Currently applying for front-end internships, preparing for campus recruitment in October.",
+    "works_recent": "Recent Works",
+    "skill_title": "Skill Level",
+    "skill_list": [
+      "Proficient in semantic HTML and compatible CSS patterns, capable of hand-coding to W3C standards.",
+      "Understanding and practice in usability, accessibility, front-end performance optimization, and best practices.",
+      "Familiar with HTML5 and CSS3.",
+      "Proficient in front-end development and team collaboration tools like ST2, Emmet, Sass, etc.",
+      "Skilled in jQuery for everyday interactive effects.",
+      "A fan of WordPress, with over two years of technical blogging and some PHP backend knowledge.",
+      "Understanding of Ajax principles and implementation methods.",
+      "Keen on user experience and interaction design.",
+      "Experienced in website construction, familiar with the entire process and related aspects (SEO, maintenance, etc.).",
+      "Operates a VPS with a self-built environment, with some knowledge of Linux.",
+      "High interest and self-learning ability in favored subjects, eager to explore new things."
+    ],
+    "contact_title": "Contact Me",
+    "contact_social": "Social Networks",
+    "contact_declaration": "This site's design, interaction, and coding were all independently completed by Jiangshui. Thanks to jQuery for the convenience. The site's source code is open on GitHub, welcome to fork and learn.",
+    "contact_outsourcing": "Project Outsourcing",
+    "contact_outsourcing_desc": "If you have front-end needs, you can contact me for outsourcing. I mainly do:",
+    "contact_outsourcing_list": [
+      "Develop front-end pages based on design drafts, communicating with back-end developers as needed.",
+      "Modify and optimize front-end websites according to requirements, or convert to responsive designs.",
+      "Create WordPress themes or functionalities, with WPJAM for back-end functionalities, and I handle the front-end.",
+      "For website construction projects, I can also recommend colleagues in the field."
+    ],
+    "contact_cooperation": "Cooperation Process: Based on the agreed price, 50% of the project fee is paid upfront to start work. Upon completion and acceptance, the remaining payment is made.",
+    "contact_pricing": "Pricing Reference: Depending on the project's difficulty and workload, the hourly rate is around 150."
+  }
+  

@@ -1,0 +1,46 @@
+{
+    "nav_about": "关于",
+    "nav_works": "作品",
+    "nav_home": "首页",
+    "nav_skill": "能力",
+    "nav_contact": "联系",
+    "intro_greeting": "Hi，我是于江水",
+    "intro_desc": "擅长前端，喜欢简约，打算走向全端的不归路 ~",
+    "intro_more": "想了解更多，往下滚动哦 ^_^",
+    "about_title": "关于本人",
+    "about_timeline_1": "2008 年接触网站建设",
+    "about_timeline_2": "2012 年专注前端学习",
+    "about_blog": "断续写过两年多独立博客（旧博 潜行者m）",
+    "about_developer": "好好学习天天向上 开发者",
+    "about_freelance": "Deepdevelop 兼职前端工程师",
+    "about_applying": "目前在申请前端实习，为 10 月份校招做准备。",
+    "works_recent": "近期作品",
+    "skill_title": "技能水平",
+    "skill_list": [
+      "熟练掌握语义化的 HTML 和具有兼容性的 CSS 模式，熟练手写符合 W3C 标准的结构和代码。",
+      "对可用性、可访问性、前端性能优化、最优实践等有一定的了解和实践。",
+      "对 HTML5 和 CSS3 有一定了解。",
+      "熟练掌握 ST2 、Emmet、Sass 等等前端开发和团队协作工具。",
+      "熟练掌握 jQuery，实现日常需要的交互效果。",
+      "喜欢并使用 WordPress ，写过两年多技术博客，有一定 PHP 后端相关知识。",
+      "了解 Ajax 工作原理和实现方法。",
+      "对用户体验和交互设计有一定的了解和追求。",
+      "做过很多网站，了解整套网站建设的流程和相关内容（SEO、维护等）。",
+      "服务器使用自己搭建环境的 VPS，对 Linux 有一定了解。",
+      "对喜欢的事物抱有极大的兴趣和自学能力，喜欢接触新事物。"
+    ],
+    "contact_title": "联系本人",
+    "contact_social": "社交网络",
+    "contact_declaration": "本站设计、交互、编码均由 Jiangshui 一人独立完成。感谢 jQuery 提供了很多方便。本站源代码已经公开在 github 上面，欢迎 fork 学习。",
+    "contact_outsourcing": "项目外包",
+    "contact_outsourcing_desc": "如果你有前端相关的需求，可以联系我做外包，目前我主要做：",
+    "contact_outsourcing_list": [
+      "根据设计稿做出后端开发人员需要的前端页面，并与后端人员做交流。",
+      "根据需求，对网站前端进行修改和优化，或者转响应式处理。",
+      "做 WordPress 主题或者功能，功能等主要由 WPJAM 来做，我来前端有关。",
+      "对于网站建设项目，我也有一些同行朋友可以推荐，也欢迎咨询！"
+    ],
+    "contact_cooperation": "合作流程：按照合作谈定的价格，预付 50% 的项目款，开始工作。完成验收后，支付尾款。",
+    "contact_pricing": "价格参考：视具体项目难度和工作量等，一般来说，工时价格为 150 左右。"
+  }
+  

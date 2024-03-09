@@ -2,11 +2,43 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1" />	
+	<meta name="viewport" content="width=device-width,initial-scale=1.0," />	
 	<title a id="title">About Yuhang</title>
 
 	<link rel="stylesheet" href="./style.css" type="text/css" media="all" />
 	<link rel="shortcut icon" href="./images/favicon.png"/>
+	<style>
+		/* 基础样式 */
+		.container {
+			width: 100%;
+			padding: 20px;
+		}
+	
+		/* 使用媒体查询为不同屏幕宽度定义样式 */
+		@media (min-width: 768px) {
+			.container {
+				width: 750px; /* 或其他布局调整 */
+			}
+		}
+	
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	
+		/* Flexbox布局示例 */
+		.flex-container {
+			display: flex;
+			flex-direction: column;
+		}
+	
+		@media (min-width: 768px) {
+			.flex-container {
+				flex-direction: row;
+			}
+		}
+	</style>
+	
 	<style>
         /* 添加内联样式 */
         .language-switcher-container {
